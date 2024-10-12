@@ -17,7 +17,7 @@ function App() {
         }
       })
       .then((data) => {
-        console.log(data.name);
+        console.log(data);
         setName(data.username);
         setAge(data.age);
       })
